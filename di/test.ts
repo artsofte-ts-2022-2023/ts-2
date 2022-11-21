@@ -81,7 +81,7 @@ export const resolvingDeps = () => {
       private readonly anotherService: AnotherService,
     ) {
       if (!this.anotherService) {
-        throw new Error('Ебануло');
+        throw new Error();
       }
     }
   }
